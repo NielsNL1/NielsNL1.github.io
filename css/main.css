@@ -74,3 +74,9 @@ a {
 .github {
     margin-top: 2rem;
 }
+
+.home {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 300px !important;
+}
