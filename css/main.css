@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+    /* More sensible defaults */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting default variables for our colors, these will be different in dark themes, see below */
+html {
+    --text-color: #111111;
+    --bg-color: #ffffff;
+}
+
+/* We can now toggle the data-theme attribute on our html tag to change our colors! Delightful!! */
+html[data-theme='dark'] {
+    --text-color: #ffffff;
+    --bg-color: #111111;
+}
+
+
+body {
+    /* Ensure that body fills the whole screen */
+    min-height: 100vh;
+
+    /* Change font family to sans serif */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* Set default text color */
+    color: var(--text-color);
+    background-color: var(--bg-color);
+
+    /* Center text */
+    text-align: center;
+}
+
+/* Our header element containing navigation, marquee and select */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--bg-color);
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+a {
+    color: var(--text-color);
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imgprofile {
+    margin-top: 2rem;
+    border-radius: 75px;
+}
+
+.title {
+    margin-top: 2rem;
+}
+
+.github {
+    margin-top: 2rem;
+}
