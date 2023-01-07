@@ -1,90 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My first website</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    
-    <style>
-
-.imgcontainer{
-  display: flex;
-  justify-content: center;
-  }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="favicon.png">
   
-.imgprofile {
-        border-radius: 75px;
-        margin-top: 35px;
-        }
+  <title>My first website</title>
 
-.center {
-  text-align: center;
-  }
+  <link rel="stylesheet"
+        href="css/main.css">
 
-.topleft{
-  position: absolute; top: 0; left: 0;
-  }
+</head>
 
-.topright{
-  position: absolute; top: 0; right: 0;
-  }
-.dropdown {
-  font-size: 16px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-}
-    </style>
-
-  </head>
-
-  <body>
-
-    <marquee>This is a testing website, all ideas appreciated!</marquee>
-    
-    <div class="center">
-      <h1>This is my first Website.<h1>
-      </div>
-    
-      <div class="imgcontainer">
-      <img class="imgprofile" src="me.png" alt="A picture of my github profile" />
-      </div>
-    
-    <script src="alert100s.js" type="module"></script>
-    <noscript><h1>browser doesn't seem to support Javascript</h1></noscript>
-    
-    <h3>
-      <div class="center">
-      <a href="https://github.com/NielsNL1/nielsnl1.github.io"
-        ><span title="github link to project"
-          >Click here for the source code of this website and more
-          information</span
-        ></a>
-    </h3>
-
-    <div class="topleft">
+<body>
+  <header>
+    <!-- Navigation -->
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="404.html">In development</a></li>
-        <li><a href="404.html">In development</a></li>
-      </ul>
+      <a href="index.html">Home</a>
+      <a href="404.html">In development</a>
+      <a href="404.html">In development</a>
     </nav>
-    </div>
-    
-    <div class="topright">
-     <select id="background-select" class="dropdown">
-      <option value="whitebird.gif">White bird</option>
-      <option value="blackbird.gif">Black bird</option>
-      <option value="white.png">white solid</option>
-      <option value="black.png">black solid</option>
+
+    <!-- Banner -->
+    <marquee>This is a testing website, all ideas appreciated!</marquee>
+
+    <!-- Select Background -->
+    <select id="background-select">
+      <option value='{"url": "assets/whitebird.gif", "theme": "light"}'>White bird</option>
+      <option value='{"url": "assets/blackbird.gif", "theme": "dark"}'>Black bird</option>
+      <option value='{"url": "", "theme": "light"}'>White solid</option>
+      <option value='{"url": "", "theme": "dark"}'>Black solid</option>
     </select>
+  </header>
+
+  <div class="title">
+    <h1>This is my first Website.<h1>
   </div>
 
-    <script src="background.js" type="module"></script>
+  <div class="imgcontainer">
+    <img class="imgprofile"
+         src="assets/me.png"
+         alt="A picture of my github profile" />
+  </div>
+    
+  <div class="imgcontainer">
+      <img class="imgprofile" src="me.png" alt="A picture of my github profile" />
+  </div>
+    
+  <noscript>
+    <h1>browser doesn't seem to support Javascript</h1>
+  </noscript>
 
-    <body background="whitebird.gif">
+  <h3 class="github">
+    Click <a href="https://github.com/NielsNL1/nielsnl1.github.io">here</a> for the source code of this website and more
+    information
+  </h3>
+
+  <script src="js/background.js"></script>
+  <script src="js/alert100s.js"></script>
+
 </html>
