@@ -1,3 +1,5 @@
-# I know i have not been active but i am working on a whole new and improved site!
+# I know i have not been active but i am working on a whole new and improved site! It even works on most mobiles!
 
-It will launch in about a week if i am not too busy with school.
+It will launch in about a week if i am not too busy with school (19-01-2023), this isn't a promise it's a prediction.
+
+Im not sure if i should make another branch or a whole ne resopetory, i will figure that out.
