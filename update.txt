@@ -1,5 +1,3 @@
 # I know i have  been silent but i am working on a whole new and improved site! It even works on most mobiles!
 
-It will launch in about a week if i am not too busy with school (19-01-2023), this isn't a promise it's a prediction.
-
-Im not sure if i should make another branch or a whole new respitory, i will figure that out.
+Im working on it, no idea when it will be here, no promises.
