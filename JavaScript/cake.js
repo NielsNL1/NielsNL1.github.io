@@ -1,1 +1,1 @@
-console.log('The cake is still a lie :)')
+console.log('The cake is a lie.')
