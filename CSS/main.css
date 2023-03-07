@@ -89,3 +89,12 @@ img {
         flex-basis: 100%;
     }
 }
+
+.pxaway {
+    margin-top: 5%;
+}
+
+.cat {
+    height: 10%;
+    width: 10%;
+}
