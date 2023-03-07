@@ -2,62 +2,48 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible"
-        content="IE=edge" />
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="assets/favicon.png">
-  
-  <title>My first website</title>
 
-  <link rel="stylesheet"
-        href="css/main.css">
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="CSS/main.css">
+
+    
 </head>
 
 <body>
-  <header>
-    <!-- Navigation -->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="404.html">In development</a>
-      <a href="game.html">Tower Defense Embeded Game</a>
-    </nav>
 
-    <!-- Banner -->
-    <marquee>This is a testing website, all ideas appreciated!</marquee>
 
-    <!-- Select Background -->
-    <select id="background-select">
-      <option value='{"url": "assets/whitebird.gif", "theme": "light"}'>White bird</option>
-      <option value='{"url": "assets/blackbird.gif", "theme": "dark"}'>Black bird</option>
-      <option value='{"url": "", "theme": "light"}'>White solid</option>
-      <option value='{"url": "", "theme": "dark"}'>Black solid</option>
-    </select>
-  </header>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="chess.html">Chess (embedded)</a>
+        <a href="about.html">About</a>
+      </div>
 
-  <div class="title">
-    <h1>This is my first Website.</h1> 
-  </div>
 
-  <div class="imgcontainer">
-    <img class="imgprofile"
-         src="assets/me.png"
-         alt="A picture of my github profile" />
-  </div>
-     
-  <noscript>
-    <h1>browser doesn't seem to support Javascript</h1>
-  </noscript>
+ <div class="center">
+    <h1>Hello World!</h1>
+    <img src="Assets/profilePicture.png" alt="A picture of my profile picture">
+    <h2>Welcome to my website!</h2>
+    <img class="cat" src="Assets/cat.gif" alt="A cat vibing GIF">
 
-  <h3 class="github">
-    Click <a href="https://github.com/NielsNL1/nielsnl1.github.io">here</a> for the source code of this website and more
-    information
-  </h3>
+    <iframe class='pxaway' class="qpiframe" src="https://poll-maker.com/frame4732721xfE75d3B7-147"
 
-  <script src="js/background.js"></script>
-  <script src="js/alert200s.js"></script>
-  <script src= "js/cake.js" ></script>
+     seamless="seamless" frameborder="no" style="border:0;
+
+      background:transparent; width:100%; height: 900px;;"></iframe>
+
+
+    </div>
+
+
+    <script src="JavaScript/cake.js"></script>
+
+
+</body>
 
 </html>
